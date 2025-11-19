@@ -1,0 +1,43 @@
+# Root ignore for multi-app Angular workspace
+# OS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Angular build outputs
+/dist/
+/dist-ssr/
+/tmp/
+/out-tsc/
+
+# Coverage
+/coverage/
+
+# IDE/editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Misc
+/.angular/cache/
+
+# Build artifacts inside apps
+host-app/dist/
+host-app/node_modules/
+personal-loan-app/dist/
+personal-loan-app/node_modules/
+
+# Generated files
+*.tgz
+
+# Environment files (add if you create them)
+*.env
+.env.*
